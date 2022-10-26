@@ -1,0 +1,21 @@
+.cardPurchase {
+   border: 1px solid var(--bg-color-red);
+   box-shadow: -1px 1px 5px 0 #555;
+   padding: 20px;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.cardPurchase__title {
+   margin: 10px 0;
+}
+.cardPurchase__container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.cardPurchase__span {
+   color: #555;
+   margin-right: 10px;
+}

@@ -1,0 +1,29 @@
+.header {
+   border: 1px solid #ccc9;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 0px 20px;
+}
+.header__list {
+   border: 1px solid #ccc9;
+   display: flex;
+   height: 100%;
+   align-items: center;
+}
+.header__item {
+   padding: 10px;
+}
+.header__item:first-child {
+   border-right: 1px solid #ccc9;
+}
+.header__item:last-child {
+   border-left: 1px solid #ccc9;
+}
+.header__link {
+   text-decoration: none;
+}
+.header__icon {
+   margin-right: 10px;
+}

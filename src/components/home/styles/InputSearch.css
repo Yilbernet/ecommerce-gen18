@@ -1,0 +1,17 @@
+.home__inputSearch {
+   margin: 25px 50px 0;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.home__input {
+   width: 300px;
+   min-width: 165px;
+   padding: 10px;
+   border: 1px solid #ccc9;
+}
+.home__input__icon {
+   background-color: var(--bg-color-red);
+   padding: 11px;
+   color: white;
+}

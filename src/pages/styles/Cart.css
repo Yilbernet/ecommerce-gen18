@@ -1,0 +1,32 @@
+.cart {
+   display: flex;
+   flex-direction: column;
+   max-width: 600px;
+   margin: 0 auto 30px;
+}
+.cart__total {
+   display: flex;
+   justify-content: end;
+   gap: 25px;
+   margin: 0 50px;
+}
+.cart__btn {
+   padding: 10px;
+   width: 150px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: var(--bg-color-red);
+   color: white;
+   font-size: 1rem;
+   transition: transform 250ms ease;
+}
+.cart__btn:hover {
+   transform: scale(1.05);
+}
+.cart__empty {
+   min-height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--bg-color-red);
+}

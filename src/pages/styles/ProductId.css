@@ -1,0 +1,9 @@
+.productId {
+   margin-bottom: 50px;
+}
+.productId__container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}

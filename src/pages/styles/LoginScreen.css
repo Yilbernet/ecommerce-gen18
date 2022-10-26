@@ -1,0 +1,63 @@
+.Logged {
+   min-height: 80vh;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   align-items: center;
+   justify-content: center;
+}
+.loginScreen {
+   min-height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+.loginScreen__form {
+   border: 1px solid var(--bg-color-red);
+   border-radius: 10px;
+   box-shadow: -1px 1px 5px 0 #555;
+   padding: 20px;
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+.loginScreen__email,
+.loginScreen__password {
+   display: flex;
+   justify-content: space-between;
+   width: 300px;
+}
+.loginScreen__input {
+   width: 220px;
+   padding: 5px;
+}
+.loginScreen__register {
+   border: 1px solid var(--bg-color-red);
+   border-radius: 10px;
+   box-shadow: -1px 1px 5px 0 #555;
+   width: 350px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+.Logged__btn,
+.loginScreen__btn {
+   padding: 10px;
+   width: 200px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: var(--bg-color-red);
+   color: white;
+   font-size: 1rem;
+   transition: transform 250ms ease;
+}
+.Logged__btn:hover,
+.loginScreen__btn:hover {
+   transform: scale(1.05);
+}
